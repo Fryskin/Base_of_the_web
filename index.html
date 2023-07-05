@@ -45,10 +45,11 @@
 
 <div class="collapse" id="Contacts">
     <div class="card card-body">
+        <form>
         <label for="exampleFormControlInput1" class="form-label">Username</label>
         <div class="input-group mb-3">
 
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            <input name="name" type="text" class="form-control" placeholder="Username" aria-label="Username"
                    aria-describedby="basic-addon1">
         </div>
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -56,15 +57,16 @@
 
 
             <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Thank you..." rows="3"></textarea>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Thank you..." rows="3"></textarea>
             <p>
             <p>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary ">Submit</button>
         </div>
+        </form>
     </div>
 </div>
 
