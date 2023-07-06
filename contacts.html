@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Homework</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<h1>Menu</h1>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+<p>
+    <button class="btn btn-cont-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Main"
+
+            aria-expanded="false" aria-controls="Main">
+        Main
+    </button>
+<p>
+
+    <button class="btn btn-cont-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Categories"
+            aria-expanded="false" aria-controls="Categories">
+        Categories
+    </button>
+<p>
+
+    <button class="btn btn-cont-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Orders"
+            aria-expanded="false" aria-controls="Orders">
+        Orders
+    </button>
+<p>
+
+    <button class="btn btn-cont-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Contacts"
+            aria-expanded="false" aria-controls="Contacts">
+        Contacts
+    </button>
+<p>
+
+</p>
+<div class="collapse" id="Contacts">
+    <div class="card card-body">
+        <form>
+        <label for="exampleFormControlInput1" class="form-label">Username</label>
+        <div class="input-group mb-3">
+
+            <input name="name" type="text" class="form-control" placeholder="Username" aria-label="Username"
+                   aria-describedby="basic-addon1">
+        </div>
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <div class="input-group mb-3">
+
+
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Thank you..." rows="3"></textarea>
+            <p>
+            <p>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+        </div>
+        </form>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="btn btn-cont-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="position:fixed; bottom:0%; left:0%">
+        User
+    </button>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li><a class="dropdown-item" href="#">Exit</a></li>
+
+    </ul>
+</div>
+
+
+</body>
+</html>

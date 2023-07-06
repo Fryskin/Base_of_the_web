@@ -8,7 +8,7 @@ serverPort = 8080
 class MyServer(BaseHTTPRequestHandler):
 
     def __get_index(self):
-        with open('index.html') as html_file:
+        with open('contacts.html') as html_file:
             html_code = html_file.read()
         return f"""{html_code}"""
 
